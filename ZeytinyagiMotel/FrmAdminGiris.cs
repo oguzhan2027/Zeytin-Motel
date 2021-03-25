@@ -21,5 +21,19 @@ namespace ZeytinyagiMotel
         {
 
         }
+
+        private void btnGirisYap_Click(object sender, EventArgs e)
+        {
+            if (txtKullaniciAdi.Text == "admin" && txtSifre.Text == "12345")
+            {
+                FrmAnaForm fr = new FrmAnaForm();
+                fr.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Kullanıcı Adı ve Şifre Hatalı ");
+            }
+        }
     }
 }

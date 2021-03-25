@@ -18,6 +18,7 @@ namespace ZeytinyagiMotel
         {
             InitializeComponent();
         }
+        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-P7OUVT3;Initial Catalog=zeytinyagimotel;Integrated Security=True");
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
@@ -109,7 +110,12 @@ namespace ZeytinyagiMotel
 
         private void btnKaydet_Click(object sender, EventArgs e)
         {
-
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("insert into MusteriEkle(Adi,SoyAdi,Cinsiyet,Telefon,Mail,TC,OdaNo,Ucret,GirisTarihi,CikisTarihi)" +
+                " values('"+txtAdi.Text+"','"+txtSoyadi.Text+"','"+cbxCinsiyet.Text + "','"+msktxtTelefon.Text+"','"+txtMail.Text+"','"+txtKimlikno.Text+"','"+txtOdano.Text+"','"+txtUcret.Text+"','"+dtpGirisTarihi.Value.ToString("yyyy-MM-dd")+"','"+dtpCikisTarihi.Value.ToString("yyyy-MM-dd")+"')",baglanti);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
+            MessageBox.Show("Müşteri kaydı yapıldı");
         }
     }
 }

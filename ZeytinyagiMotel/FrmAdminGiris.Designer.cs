@@ -81,6 +81,7 @@ namespace ZeytinyagiMotel
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.Size = new System.Drawing.Size(289, 25);
             this.txtSifre.TabIndex = 3;
+            this.txtSifre.UseSystemPasswordChar = true;
             // 
             // btnGirisYap
             // 
@@ -91,6 +92,7 @@ namespace ZeytinyagiMotel
             this.btnGirisYap.TabIndex = 4;
             this.btnGirisYap.Text = "Giriş Yap";
             this.btnGirisYap.UseVisualStyleBackColor = true;
+            this.btnGirisYap.Click += new System.EventHandler(this.btnGirisYap_Click);
             // 
             // pictureBox1
             // 
