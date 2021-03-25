@@ -1,0 +1,11 @@
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\bin\Debug\ZeytinyagiMotel.exe.config
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\bin\Debug\ZeytinyagiMotel.exe
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\bin\Debug\ZeytinyagiMotel.pdb
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.csprojAssemblyReference.cache
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.Form1.resources
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.Properties.Resources.resources
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.csproj.GenerateResource.cache
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.csproj.CoreCompileInputs.cache
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.exe
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.pdb
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.FrmYeniMusteri.resources
