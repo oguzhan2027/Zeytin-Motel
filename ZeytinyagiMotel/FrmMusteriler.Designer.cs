@@ -167,6 +167,7 @@ namespace ZeytinyagiMotel
             this.btnGuncelle.TabIndex = 2;
             this.btnGuncelle.Text = "Güncelle";
             this.btnGuncelle.UseVisualStyleBackColor = true;
+            this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // btnSil
             // 
@@ -182,12 +183,13 @@ namespace ZeytinyagiMotel
             // btnAra
             // 
             this.btnAra.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnAra.Location = new System.Drawing.Point(824, 213);
+            this.btnAra.Location = new System.Drawing.Point(824, 257);
             this.btnAra.Name = "btnAra";
             this.btnAra.Size = new System.Drawing.Size(146, 42);
             this.btnAra.TabIndex = 4;
             this.btnAra.Text = "Ara";
             this.btnAra.UseVisualStyleBackColor = true;
+            this.btnAra.Click += new System.EventHandler(this.btnAra_Click);
             // 
             // cbxCinsiyet
             // 
@@ -380,7 +382,7 @@ namespace ZeytinyagiMotel
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.textBox1.Location = new System.Drawing.Point(824, 272);
+            this.textBox1.Location = new System.Drawing.Point(824, 224);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(146, 27);
             this.textBox1.TabIndex = 64;
@@ -389,7 +391,7 @@ namespace ZeytinyagiMotel
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(774, 272);
+            this.label11.Location = new System.Drawing.Point(774, 231);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(44, 20);
             this.label11.TabIndex = 63;

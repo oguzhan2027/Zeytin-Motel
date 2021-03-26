@@ -41,5 +41,10 @@ namespace ZeytinyagiMotel
             FrmMusteriler fr = new FrmMusteriler();
             fr.Show();
         }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Zeytin motel otomasyonu/2021-Malatya");
+        }
     }
 }

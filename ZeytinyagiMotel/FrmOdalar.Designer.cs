@@ -159,6 +159,7 @@ namespace ZeytinyagiMotel
             this.MinimizeBox = false;
             this.Name = "FrmOdalar";
             this.Text = "Odalar";
+            this.Load += new System.EventHandler(this.FrmOdalar_Load);
             this.ResumeLayout(false);
 
         }
