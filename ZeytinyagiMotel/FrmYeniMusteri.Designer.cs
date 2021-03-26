@@ -187,7 +187,6 @@ namespace ZeytinyagiMotel
             this.label9.Size = new System.Drawing.Size(54, 20);
             this.label9.TabIndex = 35;
             this.label9.Text = "Ücret :";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // btnKaydet
             // 
@@ -328,7 +327,6 @@ namespace ZeytinyagiMotel
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Odalar";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // btnOda105
             // 

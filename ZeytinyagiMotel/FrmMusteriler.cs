@@ -70,11 +70,79 @@ namespace ZeytinyagiMotel
 
         private void btnSil_Click(object sender, EventArgs e)
         {
-            baglanti.Open();
-            SqlCommand komut = new SqlCommand("delete from MusteriEkle where Musteriid=(" + id + ")",baglanti);
-            komut.ExecuteNonQuery();
-            baglanti.Close();
-            verileriGoster();
+            if (txtOdano.Text == "101")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda101 ", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
+            if (txtOdano.Text == "102")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda102 ", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
+            if (txtOdano.Text == "103")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda103 ", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
+            if (txtOdano.Text == "104")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda104 ", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
+            if (txtOdano.Text == "105")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda105", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
+            if (txtOdano.Text == "106")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda106 ", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
+            if (txtOdano.Text == "107")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda107 ", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
+            if (txtOdano.Text == "108")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda108 ", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
+            if (txtOdano.Text == "109")
+            {
+                baglanti.Open();
+                SqlCommand komut = new SqlCommand("delete from Oda109", baglanti);
+                komut.ExecuteNonQuery();
+                baglanti.Close();
+                verileriGoster();
+            }
+
         }
 
         private void btnTemizle_Click(object sender, EventArgs e)
@@ -128,3 +196,4 @@ namespace ZeytinyagiMotel
     }
 }
 //Data Source=DESKTOP-P7OUVT3;Initial Catalog=zeytinyagimotel;Integrated Security=True
+// SqlCommand komut = new SqlCommand("delete from MusteriEkle where Musteriid=(" + id + ")",baglanti);
