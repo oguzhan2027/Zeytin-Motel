@@ -22,6 +22,7 @@ namespace ZeytinyagiMotel
         
         private void verileriGoster()
         {
+            listView1.Items.Clear();
             baglanti.Open();
             SqlCommand komut = new SqlCommand("select * from MusteriEkle", baglanti);
             SqlDataReader oku = komut.ExecuteReader();
@@ -50,6 +51,44 @@ namespace ZeytinyagiMotel
         private void button1_Click(object sender, EventArgs e)
         {
             verileriGoster();
+        }
+        int id = 0;
+        private void listView1_DoubleClick(object sender, EventArgs e)
+        {
+            id = int.Parse(listView1.SelectedItems[0].SubItems[0].Text);
+            txtAdi.Text = listView1.SelectedItems[0].SubItems[1].Text;
+            txtSoyadi.Text = listView1.SelectedItems[0].SubItems[2].Text;
+            cbxCinsiyet.Text = listView1.SelectedItems[0].SubItems[3].Text;
+            msktxtTelefon.Text = listView1.SelectedItems[0].SubItems[4].Text;
+            txtMail.Text = listView1.SelectedItems[0].SubItems[5].Text;
+            txtKimlikno.Text = listView1.SelectedItems[0].SubItems[6].Text;
+            txtOdano.Text = listView1.SelectedItems[0].SubItems[7].Text;
+            txtUcret.Text = listView1.SelectedItems[0].SubItems[8].Text;
+            dtpGirisTarihi.Text = listView1.SelectedItems[0].SubItems[9].Text;
+            dtpCikisTarihi.Text = listView1.SelectedItems[0].SubItems[10].Text;
+        }
+
+        private void btnSil_Click(object sender, EventArgs e)
+        {
+            baglanti.Open();
+            SqlCommand komut = new SqlCommand("delete from MusteriEkle where Musteriid=(" + id + ")",baglanti);
+            komut.ExecuteNonQuery();
+            baglanti.Close();
+            verileriGoster();
+        }
+
+        private void btnTemizle_Click(object sender, EventArgs e)
+        {
+            txtAdi.Clear();
+            txtSoyadi.Clear();
+            cbxCinsiyet.Text = "";
+            msktxtTelefon.Clear();
+            txtMail.Text = "";
+            txtKimlikno.Clear();
+            txtOdano.Clear();
+            txtUcret.Clear();
+            dtpGirisTarihi.Text = "";
+            dtpCikisTarihi.Text = "";
         }
     }
 }
