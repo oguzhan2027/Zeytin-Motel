@@ -34,14 +34,18 @@ namespace ZeytinyagiMotel
             this.label3 = new System.Windows.Forms.Label();
             this.lblPersonelmaas = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.lblAlinanurunler = new System.Windows.Forms.Label();
+            this.lblAlinanurunler1 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.lblFaturalar = new System.Windows.Forms.Label();
+            this.lblFaturalar1 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.lblSonuc = new System.Windows.Forms.Label();
+            this.lblAlinanurunler3 = new System.Windows.Forms.Label();
+            this.lblAlinanurunler2 = new System.Windows.Forms.Label();
+            this.lblFaturalar2 = new System.Windows.Forms.Label();
+            this.lblFaturalar3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -94,15 +98,15 @@ namespace ZeytinyagiMotel
             this.label5.TabIndex = 4;
             this.label5.Text = "Alınan Ürünlerin Tutarı : ";
             // 
-            // lblAlinanurunler
+            // lblAlinanurunler1
             // 
-            this.lblAlinanurunler.AutoSize = true;
-            this.lblAlinanurunler.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblAlinanurunler.Location = new System.Drawing.Point(215, 191);
-            this.lblAlinanurunler.Name = "lblAlinanurunler";
-            this.lblAlinanurunler.Size = new System.Drawing.Size(28, 21);
-            this.lblAlinanurunler.TabIndex = 5;
-            this.lblAlinanurunler.Text = "00";
+            this.lblAlinanurunler1.AutoSize = true;
+            this.lblAlinanurunler1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblAlinanurunler1.Location = new System.Drawing.Point(215, 191);
+            this.lblAlinanurunler1.Name = "lblAlinanurunler1";
+            this.lblAlinanurunler1.Size = new System.Drawing.Size(28, 21);
+            this.lblAlinanurunler1.TabIndex = 5;
+            this.lblAlinanurunler1.Text = "00";
             // 
             // label7
             // 
@@ -114,15 +118,15 @@ namespace ZeytinyagiMotel
             this.label7.TabIndex = 6;
             this.label7.Text = "Faturalar : ";
             // 
-            // lblFaturalar
+            // lblFaturalar1
             // 
-            this.lblFaturalar.AutoSize = true;
-            this.lblFaturalar.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblFaturalar.Location = new System.Drawing.Point(215, 243);
-            this.lblFaturalar.Name = "lblFaturalar";
-            this.lblFaturalar.Size = new System.Drawing.Size(28, 21);
-            this.lblFaturalar.TabIndex = 7;
-            this.lblFaturalar.Text = "00";
+            this.lblFaturalar1.AutoSize = true;
+            this.lblFaturalar1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblFaturalar1.Location = new System.Drawing.Point(215, 243);
+            this.lblFaturalar1.Name = "lblFaturalar1";
+            this.lblFaturalar1.Size = new System.Drawing.Size(28, 21);
+            this.lblFaturalar1.TabIndex = 7;
+            this.lblFaturalar1.Text = "00";
             // 
             // label9
             // 
@@ -163,15 +167,55 @@ namespace ZeytinyagiMotel
             this.label10.TabIndex = 12;
             this.label10.Text = "Sonuç : ";
             // 
-            // label11
+            // lblSonuc
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label11.Location = new System.Drawing.Point(592, 37);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(56, 45);
-            this.label11.TabIndex = 13;
-            this.label11.Text = "00";
+            this.lblSonuc.AutoSize = true;
+            this.lblSonuc.Font = new System.Drawing.Font("Segoe UI Semibold", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblSonuc.Location = new System.Drawing.Point(592, 37);
+            this.lblSonuc.Name = "lblSonuc";
+            this.lblSonuc.Size = new System.Drawing.Size(56, 45);
+            this.lblSonuc.TabIndex = 13;
+            this.lblSonuc.Text = "00";
+            // 
+            // lblAlinanurunler3
+            // 
+            this.lblAlinanurunler3.AutoSize = true;
+            this.lblAlinanurunler3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblAlinanurunler3.Location = new System.Drawing.Point(308, 191);
+            this.lblAlinanurunler3.Name = "lblAlinanurunler3";
+            this.lblAlinanurunler3.Size = new System.Drawing.Size(28, 21);
+            this.lblAlinanurunler3.TabIndex = 14;
+            this.lblAlinanurunler3.Text = "00";
+            // 
+            // lblAlinanurunler2
+            // 
+            this.lblAlinanurunler2.AutoSize = true;
+            this.lblAlinanurunler2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblAlinanurunler2.Location = new System.Drawing.Point(259, 191);
+            this.lblAlinanurunler2.Name = "lblAlinanurunler2";
+            this.lblAlinanurunler2.Size = new System.Drawing.Size(28, 21);
+            this.lblAlinanurunler2.TabIndex = 15;
+            this.lblAlinanurunler2.Text = "00";
+            // 
+            // lblFaturalar2
+            // 
+            this.lblFaturalar2.AutoSize = true;
+            this.lblFaturalar2.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblFaturalar2.Location = new System.Drawing.Point(259, 243);
+            this.lblFaturalar2.Name = "lblFaturalar2";
+            this.lblFaturalar2.Size = new System.Drawing.Size(28, 21);
+            this.lblFaturalar2.TabIndex = 16;
+            this.lblFaturalar2.Text = "00";
+            // 
+            // lblFaturalar3
+            // 
+            this.lblFaturalar3.AutoSize = true;
+            this.lblFaturalar3.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblFaturalar3.Location = new System.Drawing.Point(308, 243);
+            this.lblFaturalar3.Name = "lblFaturalar3";
+            this.lblFaturalar3.Size = new System.Drawing.Size(28, 21);
+            this.lblFaturalar3.TabIndex = 17;
+            this.lblFaturalar3.Text = "00";
             // 
             // FrmGelirGider
             // 
@@ -179,14 +223,18 @@ namespace ZeytinyagiMotel
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label11);
+            this.Controls.Add(this.lblFaturalar3);
+            this.Controls.Add(this.lblFaturalar2);
+            this.Controls.Add(this.lblAlinanurunler2);
+            this.Controls.Add(this.lblAlinanurunler3);
+            this.Controls.Add(this.lblSonuc);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.lblFaturalar);
+            this.Controls.Add(this.lblFaturalar1);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.lblAlinanurunler);
+            this.Controls.Add(this.lblAlinanurunler1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lblPersonelmaas);
             this.Controls.Add(this.label3);
@@ -194,6 +242,7 @@ namespace ZeytinyagiMotel
             this.Controls.Add(this.label1);
             this.Name = "FrmGelirGider";
             this.Text = "FrmGelirGider";
+            this.Load += new System.EventHandler(this.FrmGelirGider_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -206,13 +255,17 @@ namespace ZeytinyagiMotel
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label lblPersonelmaas;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label lblAlinanurunler;
+        private System.Windows.Forms.Label lblAlinanurunler1;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label lblFaturalar;
+        private System.Windows.Forms.Label lblFaturalar1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label lblSonuc;
+        private System.Windows.Forms.Label lblAlinanurunler3;
+        private System.Windows.Forms.Label lblAlinanurunler2;
+        private System.Windows.Forms.Label lblFaturalar2;
+        private System.Windows.Forms.Label lblFaturalar3;
     }
 }
