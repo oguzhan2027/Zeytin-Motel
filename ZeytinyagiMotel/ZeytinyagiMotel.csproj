@@ -70,6 +70,12 @@
     <Compile Include="FrmGelirGider.Designer.cs">
       <DependentUpon>FrmGelirGider.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmMesajlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMesajlar.Designer.cs">
+      <DependentUpon>FrmMesajlar.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMusteriler.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +125,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmGelirGider.resx">
       <DependentUpon>FrmGelirGider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMesajlar.resx">
+      <DependentUpon>FrmMesajlar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMusteriler.resx">
       <DependentUpon>FrmMusteriler.cs</DependentUpon>

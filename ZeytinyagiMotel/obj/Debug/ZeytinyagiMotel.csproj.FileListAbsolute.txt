@@ -22,3 +22,4 @@ C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\Zeytiny
 C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.FrmRadyoDinle.resources
 C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.FrmGazeteler.resources
 C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.FrmSifreGuncelle.resources
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.FrmMesajlar.resources
