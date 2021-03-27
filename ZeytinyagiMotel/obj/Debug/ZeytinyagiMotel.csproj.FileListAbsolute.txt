@@ -12,3 +12,5 @@ C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\Zeytiny
 C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.FrmAnaForm.resources
 C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.FrmOdalar.resources
 C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.FrmMusteriler.resources
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.FrmGelirGider.resources
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.FrmStoklar.resources

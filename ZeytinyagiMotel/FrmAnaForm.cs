@@ -46,5 +46,35 @@ namespace ZeytinyagiMotel
         {
             MessageBox.Show("Zeytin motel otomasyonu/2021-Malatya");
         }
+
+        private void FrmAnaForm_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
+
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label1.Text = DateTime.Now.ToLongDateString();
+            label2.Text = DateTime.Now.ToLongTimeString();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            FrmGelirGider fr = new FrmGelirGider();
+            fr.Show();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FrmStoklar fr = new FrmStoklar();
+            fr.Show();
+        }
     }
 }
