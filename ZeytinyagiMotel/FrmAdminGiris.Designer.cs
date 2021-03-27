@@ -85,6 +85,7 @@ namespace ZeytinyagiMotel
             // 
             // btnGirisYap
             // 
+            this.btnGirisYap.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGirisYap.Location = new System.Drawing.Point(166, 131);
             this.btnGirisYap.Margin = new System.Windows.Forms.Padding(4);
             this.btnGirisYap.Name = "btnGirisYap";

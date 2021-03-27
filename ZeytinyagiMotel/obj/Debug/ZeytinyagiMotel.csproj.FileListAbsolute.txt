@@ -14,3 +14,11 @@ C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\Zeytiny
 C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.FrmMusteriler.resources
 C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.FrmGelirGider.resources
 C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.FrmStoklar.resources
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\bin\Debug\Interop.WMPLib.dll
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\Interop.WMPLib.dll
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.csproj.ResolveComReference.cache
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.FrmRadyoDinle.resources
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.FrmGazeteler.resources
+C:\Users\OĞUZHAN\source\repos\ZeytinyagiMotel\ZeytinyagiMotel\obj\Debug\ZeytinyagiMotel.FrmSifreGuncelle.resources

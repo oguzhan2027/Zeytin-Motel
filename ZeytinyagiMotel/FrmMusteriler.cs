@@ -165,6 +165,7 @@ namespace ZeytinyagiMotel
             SqlCommand komut = new SqlCommand("update MusteriEkle set Adi='"+txtAdi.Text+"',Soyadi='"+txtSoyadi.Text+"',Cinsiyet='"+cbxCinsiyet.Text+"',Telefon='"+msktxtTelefon.Text+"',Mail='"+txtMail.Text+"',TC='"+txtKimlikno.Text+"',OdaNo='"+txtOdano.Text+"',Ucret='"+txtUcret.Text+"',GirisTarihi='"+ dtpGirisTarihi.Value.ToString("yyyy-MM-dd")+"',CikisTarihi='"+ dtpCikisTarihi.Value.ToString("yyyy-MM-dd")+"' where Musteriid="+id+"",baglanti);
             komut.ExecuteNonQuery();
             baglanti.Close();
+            verileriGoster();
         }
 
         private void btnAra_Click(object sender, EventArgs e)

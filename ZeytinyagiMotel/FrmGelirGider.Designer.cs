@@ -221,6 +221,7 @@ namespace ZeytinyagiMotel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblFaturalar3);
@@ -240,8 +241,10 @@ namespace ZeytinyagiMotel
             this.Controls.Add(this.label3);
             this.Controls.Add(this.lblKasatoplam);
             this.Controls.Add(this.label1);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FrmGelirGider";
-            this.Text = "FrmGelirGider";
+            this.Text = "GelirGider";
             this.Load += new System.EventHandler(this.FrmGelirGider_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

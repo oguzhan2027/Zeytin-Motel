@@ -76,5 +76,23 @@ namespace ZeytinyagiMotel
             FrmStoklar fr = new FrmStoklar();
             fr.Show();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            FrmRadyoDinle fr = new FrmRadyoDinle();
+            fr.Show();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            FrmGazeteler fr = new FrmGazeteler();
+            fr.Show();
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            FrmSifreGuncelle fr = new FrmSifreGuncelle();
+            fr.Show();
+        }
     }
 }
