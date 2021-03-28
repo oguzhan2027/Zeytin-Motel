@@ -7,7 +7,7 @@ basit bir motel otomasyonu
 
 ![yeni müşteri ekle](https://user-images.githubusercontent.com/65087063/112744525-7fb8e200-8fa9-11eb-9dc1-6dbd5a3ba67b.PNG)
 
-![odalar](https://user-images.githubusercontent.com/65087063/112744533-8d6e6780-8fa9-11eb-86e7-fa4305a52fe6.PNG)
+![odalar2](https://user-images.githubusercontent.com/65087063/112748069-1396a800-8fc2-11eb-8185-493691940fde.PNG)
 
 ![sifre güncelleme](https://user-images.githubusercontent.com/65087063/112744539-965f3900-8fa9-11eb-96cc-db724a2afbe2.PNG)
 
