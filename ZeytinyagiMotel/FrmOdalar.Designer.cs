@@ -29,6 +29,7 @@ namespace ZeytinyagiMotel
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmOdalar));
             this.btnOda105 = new System.Windows.Forms.Button();
             this.btnOda109 = new System.Windows.Forms.Button();
             this.btnOda108 = new System.Windows.Forms.Button();
@@ -155,6 +156,7 @@ namespace ZeytinyagiMotel
             this.Controls.Add(this.btnOda103);
             this.Controls.Add(this.btnOda102);
             this.Controls.Add(this.btnOda101);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmOdalar";

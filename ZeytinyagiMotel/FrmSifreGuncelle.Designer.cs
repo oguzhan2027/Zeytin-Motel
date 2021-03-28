@@ -29,6 +29,7 @@ namespace ZeytinyagiMotel
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmSifreGuncelle));
             this.btnGuncelle = new System.Windows.Forms.Button();
             this.txtSifre = new System.Windows.Forms.TextBox();
             this.txtKullaniciAdi = new System.Windows.Forms.TextBox();
@@ -101,6 +102,7 @@ namespace ZeytinyagiMotel
             this.Controls.Add(this.txtKullaniciAdi);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmSifreGuncelle";
             this.Text = "FrmSifreGuncelle";
             this.ResumeLayout(false);

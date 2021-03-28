@@ -29,6 +29,7 @@ namespace ZeytinyagiMotel
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmYeniMusteri));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label11 = new System.Windows.Forms.Label();
             this.cbxCinsiyet = new System.Windows.Forms.ComboBox();
@@ -471,6 +472,7 @@ namespace ZeytinyagiMotel
             this.Controls.Add(this.btnBosoda);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmYeniMusteri";

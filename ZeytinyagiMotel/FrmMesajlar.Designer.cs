@@ -29,6 +29,7 @@ namespace ZeytinyagiMotel
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMesajlar));
             this.label1 = new System.Windows.Forms.Label();
             this.txtAdSoyad = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -70,6 +71,7 @@ namespace ZeytinyagiMotel
             // 
             // rtxtMesaj
             // 
+            this.rtxtMesaj.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.rtxtMesaj.Location = new System.Drawing.Point(156, 73);
             this.rtxtMesaj.Name = "rtxtMesaj";
             this.rtxtMesaj.Size = new System.Drawing.Size(413, 231);
@@ -100,6 +102,7 @@ namespace ZeytinyagiMotel
             this.listView1.TabIndex = 5;
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
+            this.listView1.DoubleClick += new System.EventHandler(this.listView1_DoubleClick);
             // 
             // columnHeader1
             // 
@@ -127,6 +130,7 @@ namespace ZeytinyagiMotel
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtAdSoyad);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmMesajlar";
             this.Text = "FrmMesajlar";
             this.Load += new System.EventHandler(this.FrmMesajlar_Load);

@@ -43,7 +43,7 @@ namespace ZeytinyagiMotel
         private void button1_Click(object sender, EventArgs e)
         {
             baglanti.Open();
-            SqlCommand komut = new SqlCommand("İnsert into Mesajlar(Adsoyad,Mesaj) values('" + txtAdSoyad.Text + "','" + rtxtMesaj.Text + "')", baglanti);
+            SqlCommand komut = new SqlCommand("insert into Mesajlar(Adsoyad,Mesaj) values('" + txtAdSoyad.Text + "','" + rtxtMesaj.Text + "')", baglanti);
             komut.ExecuteNonQuery();
             baglanti.Close();
             verileriGoster();
@@ -53,6 +53,14 @@ namespace ZeytinyagiMotel
         private void FrmMesajlar_Load(object sender, EventArgs e)
         {
             verileriGoster();
+        }
+
+        int id = 0;
+        private void listView1_DoubleClick(object sender, EventArgs e)
+        {
+            id = int.Parse(listView1.SelectedItems[0].SubItems[0].Text);
+            txtAdSoyad.Text = listView1.SelectedItems[0].SubItems[1].Text;
+            rtxtMesaj.Text = listView1.SelectedItems[0].SubItems[2].Text;
         }
     }
 }
